@@ -15,7 +15,7 @@ dict = {'a': 100, 'b':200, 'c':300}
 key = input('Please Enter the Key : ')
 flag = checkKey(dict, key)
 
-if(flag == 1):
+if flag == 1:
     print("Value for given key is : " ,dict[key])
     #print its val
 else:
